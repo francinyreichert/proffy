@@ -8,8 +8,7 @@ const subjects = [
     "História",
     "Matemática",
     "Português",
-    "Química",
-    "Ciências da Computação"
+    "Química"
 ];
 
 const weekdays = [
