@@ -30,4 +30,6 @@ server
 .post("/save-classes", saveClasses)
 .get('/page-success', pageSuccess)
 // start do servidor
-.listen(5500)
+.listen(5500, ()=>{
+    console.log("Listening on port http://localhost:5500")
+})
