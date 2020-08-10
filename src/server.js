@@ -6,7 +6,8 @@ const {
     pageLanding,
     pageStudy,
     pageGiveClasses,
-    saveClasses
+    saveClasses,
+    pageSuccess
 } = require("./pages")
 
 //configurar nunjucks (template engine)
@@ -27,5 +28,6 @@ server
 .get("/study", pageStudy)
 .get("/give-classes", pageGiveClasses)
 .post("/save-classes", saveClasses)
+.get('/page-success', pageSuccess)
 // start do servidor
 .listen(5500)
