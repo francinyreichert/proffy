@@ -20,7 +20,7 @@
     <li> SQLite </li>
   </ul>
   
-<h2>⌨ Como executar o projeto </h2>
+<h2>⌨ Como executar </h2>
 <strong>Clone o repositório</strong>
 <p>git clone <a href="https://github.com/francinyreichert/proffy.git">https://github.com/francinyreichert/proffy.git</a></p>
 
